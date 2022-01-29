@@ -13,8 +13,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welome to the multiplier!");
         System.out.println("Please enter a number to be multiplied");
-        
-        jeremy.calculate(sc.nextInt(), 1);
+        int multiplier = sc.nextInt();
+        System.out.println("Enter how the maximum number to be multiplied by");
+        int multiplier2 = sc.nextInt();
+        jeremy.calculate(multiplier, multiplier2);
             
         }
         

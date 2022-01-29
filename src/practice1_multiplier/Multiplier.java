@@ -11,16 +11,17 @@ package practice1_multiplier;
  * @author Travi_groes869
  */
 public class Multiplier {
-    
+    int loopCount = 1;
     
     public Multiplier(){
         
     }
     
     public void calculate(int num,int loopNum){
-        while(loopNum<=10){
-            System.out.println(num+"*"+loopNum+"="+loopNum*num);
-            loopNum++;
+        
+        while(loopCount<=loopNum){
+            System.out.println(num+"*"+loopCount+"="+loopCount*num);
+            loopCount++;
         }
     }
     
