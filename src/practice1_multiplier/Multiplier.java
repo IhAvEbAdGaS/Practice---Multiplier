@@ -16,7 +16,9 @@ public class Multiplier {
     public Multiplier(){
         
     }
-    
+    public void bruh(){
+        
+    }
     public void calculate(int num,int loopNum){
         
         while(loopCount<=loopNum){
